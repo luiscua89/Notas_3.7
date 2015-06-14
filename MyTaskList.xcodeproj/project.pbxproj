@@ -14,6 +14,7 @@
 		6AD6F5521B2B7653003A6EE8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD6F5511B2B7653003A6EE8 /* Images.xcassets */; };
 		6AD6F5551B2B7653003A6EE8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AD6F5531B2B7653003A6EE8 /* LaunchScreen.xib */; };
 		6AD6F5611B2B7653003A6EE8 /* MyTaskListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6F5601B2B7653003A6EE8 /* MyTaskListTests.swift */; };
+		6AD6F56D1B2B7754003A6EE8 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6F56C1B2B7754003A6EE8 /* TaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		6AD6F55A1B2B7653003A6EE8 /* MyTaskListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTaskListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD6F55F1B2B7653003A6EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AD6F5601B2B7653003A6EE8 /* MyTaskListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTaskListTests.swift; sourceTree = "<group>"; };
+		6AD6F56C1B2B7754003A6EE8 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				6AD6F5481B2B7653003A6EE8 /* AppDelegate.swift */,
 				6AD6F54A1B2B7653003A6EE8 /* FirstViewController.swift */,
 				6AD6F54C1B2B7653003A6EE8 /* SecondViewController.swift */,
+				6AD6F56C1B2B7754003A6EE8 /* TaskManager.swift */,
 				6AD6F54E1B2B7653003A6EE8 /* Main.storyboard */,
 				6AD6F5511B2B7653003A6EE8 /* Images.xcassets */,
 				6AD6F5531B2B7653003A6EE8 /* LaunchScreen.xib */,
@@ -217,6 +220,7 @@
 			files = (
 				6AD6F54D1B2B7653003A6EE8 /* SecondViewController.swift in Sources */,
 				6AD6F5491B2B7653003A6EE8 /* AppDelegate.swift in Sources */,
+				6AD6F56D1B2B7754003A6EE8 /* TaskManager.swift in Sources */,
 				6AD6F54B1B2B7653003A6EE8 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +417,7 @@
 				6AD6F5661B2B7653003A6EE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6AD6F5671B2B7653003A6EE8 /* Build configuration list for PBXNativeTarget "MyTaskListTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				6AD6F5691B2B7653003A6EE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
